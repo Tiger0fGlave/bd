@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SimulationContractViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PPO-b8-ghT">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1、乙方通过趣分期商城或其他甲方认可的渠道提交订单，分期购买所需标的物（“标的物”）。最终标的物以甲方网站确认和公布的记录为准。" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sk0-FQ-fLD">
+                            <rect key="frame" x="8" y="24" width="592" height="81"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="widthClass=compact" fixedFrame="YES">
+                                <rect key="frame" x="8" y="14" width="1062" height="193"/>
+                            </variation>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2、本合同标的物的总价款（含相关税费）为人民币 1111.11 元" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I0f-Bv-6eF">
+                            <rect key="frame" x="8" y="124" width="569" height="83"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text=" (大写： 万 壹 仟 壹 佰 壹 拾 壹 元 壹 角 壹 分)（“总价款”），" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HzO-Zj-3us">
+                            <rect key="frame" x="29" y="186" width="465" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="标的物、价款" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vx8-au-3Hi">
+                            <rect key="frame" x="8" y="8" width="42" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="HzO-Zj-3us" firstAttribute="top" secondItem="PPO-b8-ghT" secondAttribute="top" constant="160" id="0hS-jK-taP"/>
+                        <constraint firstItem="sk0-FQ-fLD" firstAttribute="top" secondItem="PPO-b8-ghT" secondAttribute="top" constant="30" id="ILw-49-oVG">
+                            <variation key="widthClass=compact" constant="30"/>
+                        </constraint>
+                        <constraint firstAttribute="trailing" secondItem="HzO-Zj-3us" secondAttribute="trailing" constant="20" id="dNi-af-zOE"/>
+                        <constraint firstAttribute="trailing" secondItem="I0f-Bv-6eF" secondAttribute="trailing" constant="20" id="iYx-R9-ELg"/>
+                        <constraint firstItem="I0f-Bv-6eF" firstAttribute="leading" secondItem="PPO-b8-ghT" secondAttribute="leading" constant="20" id="jCT-TG-BKI"/>
+                        <constraint firstItem="HzO-Zj-3us" firstAttribute="leading" secondItem="PPO-b8-ghT" secondAttribute="leading" constant="20" id="msa-W2-rIi"/>
+                        <constraint firstItem="sk0-FQ-fLD" firstAttribute="leading" secondItem="PPO-b8-ghT" secondAttribute="leading" constant="20" id="qSc-xr-h7t">
+                            <variation key="widthClass=compact" constant="20"/>
+                        </constraint>
+                        <constraint firstAttribute="trailing" secondItem="sk0-FQ-fLD" secondAttribute="trailing" constant="20" id="uoD-lG-J6f">
+                            <variation key="widthClass=compact" constant="20"/>
+                        </constraint>
+                        <constraint firstItem="I0f-Bv-6eF" firstAttribute="top" secondItem="PPO-b8-ghT" secondAttribute="top" constant="110" id="ysa-zH-oZR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="PPO-b8-ghT" secondAttribute="bottom" id="4J9-WZ-8qB">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="PPO-b8-ghT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="aa5-Me-ywI">
+                    <variation key="widthClass=compact" constant="20"/>
+                </constraint>
+                <constraint firstItem="PPO-b8-ghT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="bfK-FV-nym">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="PPO-b8-ghT" secondAttribute="trailing" id="hSb-uT-4t0">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+                <constraint firstItem="PPO-b8-ghT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="uf4-Y5-dMw">
+                    <variation key="widthClass=compact" constant="0.0"/>
+                </constraint>
+            </constraints>
+            <point key="canvasLocation" x="146" y="207"/>
+        </view>
+    </objects>
+</document>

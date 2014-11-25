@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  QufenqiBD
+//
+//  Created by Yuyangdexue on 14-10-12.
+//  Copyright (c) 2014年 qufenqi. All rights reserved.
+//
+
+#ifndef QufenqiBD_PrefixHeader_pch
+#define QufenqiBD_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+
+#import "AppConfig.h"
+
+
+#endif
+
+
+#endif
